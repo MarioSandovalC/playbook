@@ -1,9 +1,5 @@
-var array=[15,236,387,38,64,97];
+const array1 = [5, 12, 8, 130, 44];
 
+const busqueda = array1.find(element => element > 100);
 
-const busqueda = (numero) => {
-    numero =38;
-    return numero;
-}
-
-console.log(array.find(busqueda));
+console.log(busqueda);
